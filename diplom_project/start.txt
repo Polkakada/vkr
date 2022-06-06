@@ -1,0 +1,2 @@
+python yolov5\detect.py --source video.mp4 --weight weights\best.pt
+python main.py --video_path sample_data/exp1/cut.mp4 --det_dir sample_data/exp1/labels --show
